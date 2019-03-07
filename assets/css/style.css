@@ -119,6 +119,9 @@ a:hover {
     text-align: center;
 }
 
+.navbar-collapse{
+    background: rgba(0,0,0,0.7);
+}
 
 .news-heading{
     text-align: center;
@@ -134,26 +137,16 @@ a:hover {
     margin-bottom: 40px;
 }
 
-.timeline-item:before{
-    content: attr(data-dates);
-    position: absolute;
-    left: 2.5em;
-    top: 3em;
-    display: block;
-    font-family: "reem kufi";
-    font-weight: 200;
-    font-size: 0.8em;
-    padding: 0;
-    margin: 0;
+
+.timeline-item{
+    padding: 2em 2em 0em 2em;
+    position: relative;
+    color: #bb6838;
+    text-align: center;
 }
 
-.timeline-item:after {
-    width: 12px;
-    height: 12px;
-    display: block;
-    position: absolute;
-    top:2.4em;
-    left: -6px;
-    border-radius: 12px;
-    content: "";
-}
+
+
+
+
+
