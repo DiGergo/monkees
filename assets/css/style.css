@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css?family=Reem+Kufi:100,200,300,400,500,600,700');
+
+
+header {
+    margin: 0;
+}
+
+.navbar {
+    text-align: center;
+    margin-top: 20px;
+    text-decoration: none;
+    background-color: transparent;
+}
+.navbar-toggler{
+    background: #bb6838;
+    border: none
+    ;
+}
+
+
+.list-inline span {
+    color: #ef5d1a;
+    font-family: "Reem Kufi", sans-serif;
+    font-size: 22px;
+    margin-left: 10px;
+    font-weight: 100;
+}
+
+.navbar-toggler-icon{
+    color: yellow;
+}
+
+
+.callout-container {
+    height: 100vh;
+
+    background: url("../images/monkees.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    position: relative;
+}
+
+.information {
+    height: 500px;
+    background-color: #292727;
+}
+
+.together {
+    font-family: "Reem Kufi", sans-serif;
+    font-size: 70px;
+    color: #ef5d1a;
+    position: relative;
+    text-align: center;
+    padding-top: 50px;
+    
+}
+
+footer {
+    
+    background-color: #C5C3C3;
+}
+
+.news-section{
+    background-color: #4f362b;
+    height: 500px;
+}
+
+a:hover {
+    text-decoration: none;
+    color: red;
+}
+
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+
+}
+
+.history-item {
+    color: #f1f1f1;
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    padding: 12px 0;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background: #8f8f8f;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links {
+    padding-bottom: 15px;
+}
+
+.general-sub {
+    text-align: center;
+}
+
+.social-links {
+    text-align: center;
+}
+
+
+.news-heading{
+    text-align: center;
+    font-family: "Reem kufi";
+    font-size: 36px;
+    padding-top: 20px;
+}
+
+.break-line{
+    width: 50%;
+    color: #bb6838;
+    border-top: 3px solid;
+    margin-bottom: 40px;
+}
+
+.timeline-item:before{
+    content: attr(data-dates);
+    position: absolute;
+    left: 2.5em;
+    top: 3em;
+    display: block;
+    font-family: "reem kufi";
+    font-weight: 200;
+    font-size: 0.8em;
+    padding: 0;
+    margin: 0;
+}
+
+.timeline-item:after {
+    width: 12px;
+    height: 12px;
+    display: block;
+    position: absolute;
+    top:2.4em;
+    left: -6px;
+    border-radius: 12px;
+    content: "";
+}
