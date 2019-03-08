@@ -11,10 +11,10 @@ header {
     text-decoration: none;
     background-color: transparent;
 }
-.navbar-toggler{
+
+.navbar-toggler {
     background: #bb6838;
-    border: none
-    ;
+    border: none;
 }
 
 
@@ -26,7 +26,7 @@ header {
     font-weight: 100;
 }
 
-.navbar-toggler-icon{
+.navbar-toggler-icon {
     color: yellow;
 }
 
@@ -59,15 +59,15 @@ header {
     position: relative;
     text-align: center;
     padding-top: 50px;
-    
+
 }
 
 footer {
-    
+
     background-color: #C5C3C3;
 }
 
-.news-section{
+.news-section {
     background-color: #4f362b;
     height: 500px;
 }
@@ -119,18 +119,25 @@ a:hover {
     text-align: center;
 }
 
-.navbar-collapse{
-    background: rgba(0,0,0,0.7);
+.navbar-collapse {
+    background: rgba(0, 0, 0, 0.7);
+
 }
 
-.news-heading{
+@media (min-width: 768px) {
+    .navbar-expand-md .navbar-collapse {
+        background-color: transparent;
+    }
+
+
+.upcoming-heading {
     text-align: center;
     font-family: "Reem kufi";
     font-size: 36px;
     padding-top: 20px;
 }
 
-.break-line{
+.break-line {
     width: 50%;
     color: #bb6838;
     border-top: 3px solid;
@@ -138,15 +145,24 @@ a:hover {
 }
 
 
-.timeline-item{
+.timeline-item {
     padding: 2em 2em 0em 2em;
     position: relative;
     color: #bb6838;
     text-align: center;
 }
 
+.news-heading {
+    color: #bb6838; 
+    text-align: center;
+    font-family: "Reem kufi";
+    font-size: 36px;
+    padding-top: 20px;
+    
+}
 
-
-
-
-
+.news-text {
+    color: #bb6838;
+    text-align: center;
+    
+}
