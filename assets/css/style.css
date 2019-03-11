@@ -48,7 +48,7 @@ header {
 }
 
 .information {
-    height: 500px;
+    
     background-color: #292727;
 }
 
@@ -195,6 +195,11 @@ button[type=submit] {
     background-color: #e84610;
 }
 
+
+.band-members{
+    color: #fafafa;
+    
+}
 
 @media (min-width: 768px) {
     .navbar-expand-md .navbar-collapse {
