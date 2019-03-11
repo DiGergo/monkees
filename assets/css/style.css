@@ -1,8 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Reem+Kufi:100,200,300,400,500,600,700');
 
+/* --------------------------------------Header */
 
 header {
     margin: 0;
+}
+
+/* --------------------------------------Navbar */
+
+.navbar-collapse {
+    background: rgba(0, 0, 0, 0.7);
 }
 
 .navbar {
@@ -31,8 +38,10 @@ header {
 }
 
 
+/* --------------------------------------Background picture */
+
 .callout-container {
-    height: 100vh;
+    height: 80vh;
 
     background: url("../images/monkees.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
@@ -47,10 +56,48 @@ header {
     position: relative;
 }
 
-.information {
-    
-    background-color: #292727;
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+
 }
+
+/* --------------------------------------News section */
+
+.information {
+    background-color: #292727;
+    padding-top: 20px;
+}
+
+.news-section {
+    background-color: #4f362b;
+
+}
+
+.news-heading {
+    color: #bb6838;
+    text-align: center;
+    font-family: "Reem kufi";
+    font-size: 36px;
+    padding-top: 20px;
+}
+
+
+.news-text {
+    color: #bb6838;
+    text-align: center;
+    
+    
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+
+/* --------------------------------------Together callout */
 
 .together {
     font-family: "Reem Kufi", sans-serif;
@@ -63,33 +110,17 @@ header {
 
 }
 
+/* --------------------------------------Footer */
+
 footer {
 
     background-color: #C5C3C3;
 }
 
-.news-section {
-    background-color: #4f362b;
-    
-}
 
 a:hover {
     text-decoration: none;
     color: red;
-}
-
-.opaque-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-
-}
-
-.history-item {
-    color: #f1f1f1;
 }
 
 .social-links li a i {
@@ -114,20 +145,23 @@ a:hover {
 
 .general-sub {
     text-align: center;
-    padding-top:10px;
+    padding-top: 10px;
 }
 
 .social-links {
     text-align: center;
 }
 
-.navbar-collapse {
-    background: rgba(0, 0, 0, 0.7);
+/* --------------------------------------Break line */
 
+.line {
+    width: 50%;
+    color: #bb6838;
+    border-top: 3px solid;
+    margin-bottom: 40px;
 }
 
-
-
+/* --------------------------------------Upcoming section */
 
 .upcoming-heading {
     text-align: center;
@@ -136,12 +170,7 @@ a:hover {
     padding-top: 20px;
 }
 
-.line {
-    width: 50%;
-    color: #bb6838;
-    border-top: 3px solid;
-    margin-bottom: 40px;
-}
+
 
 
 .timeline-item {
@@ -151,29 +180,37 @@ a:hover {
     text-align: center;
 }
 
-.news-heading {
-    color: #bb6838;
-    text-align: center;
-    font-family: "Reem kufi";
-    font-size: 36px;
-    padding-top: 20px;
 
-}
-
-
-.news-text {
-    color: #bb6838;
-    text-align: center;
-    width: 70%;
-    padding-left: 10%;
-    padding-top: 3em;
-}
 
 .modal-content {
     text-align: center;
 }
 
-/* --------------------------------------Contact Form */
+
+/* --------------------------------------Contact page */
+
+.bg-color-contact {
+    background-color: #efeded;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    height: calc(2.25rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    
+    background-color: #c5c3c3;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    margin: 10px;
+}
+
+/* --------------Contact Form */
 
 .contact-heading {
     font-family: "reem kufi", sans-serif;
@@ -196,13 +233,32 @@ button[type=submit] {
 }
 
 
-.band-members{
-    color: #fafafa;
-    
-}
+/* --------------------------------------media */
 
 @media (min-width: 768px) {
     .navbar-expand-md .navbar-collapse {
         background-color: transparent;
     }
 }
+
+
+/*------------------------------------------------About page */
+
+.band-members {
+    color: #fafafa;
+}
+
+.img-circle {
+    margin-left: 20%;
+    margin-bottom: 30px;
+    border-radius: 50%;
+}
+
+.band-description {
+    color: #f1f1f1;
+    width: 70%;
+}
+
+/*------------------------------------------------Music page */
+
+/*------------------------------------------------Video page */
