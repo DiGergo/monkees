@@ -59,6 +59,7 @@ header {
     position: relative;
     text-align: center;
     padding-top: 50px;
+    margin-left: 5%;
 
 }
 
@@ -69,7 +70,7 @@ footer {
 
 .news-section {
     background-color: #4f362b;
-    height: 500px;
+    
 }
 
 a:hover {
@@ -113,6 +114,7 @@ a:hover {
 
 .general-sub {
     text-align: center;
+    padding-top:10px;
 }
 
 .social-links {
@@ -124,10 +126,7 @@ a:hover {
 
 }
 
-@media (min-width: 768px) {
-    .navbar-expand-md .navbar-collapse {
-        background-color: transparent;
-    }
+
 
 
 .upcoming-heading {
@@ -137,7 +136,7 @@ a:hover {
     padding-top: 20px;
 }
 
-.break-line {
+.line {
     width: 50%;
     color: #bb6838;
     border-top: 3px solid;
@@ -153,16 +152,52 @@ a:hover {
 }
 
 .news-heading {
-    color: #bb6838; 
+    color: #bb6838;
     text-align: center;
     font-family: "Reem kufi";
     font-size: 36px;
     padding-top: 20px;
-    
+
 }
+
 
 .news-text {
     color: #bb6838;
     text-align: center;
-    
+    width: 70%;
+    padding-left: 10%;
+    padding-top: 3em;
+}
+
+.modal-content {
+    text-align: center;
+}
+
+/* --------------------------------------Contact Form */
+
+.contact-heading {
+    font-family: "reem kufi", sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+button[type=submit] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: #fafafa;
+    background-color: #e84610;
+}
+
+
+@media (min-width: 768px) {
+    .navbar-expand-md .navbar-collapse {
+        background-color: transparent;
+    }
 }
