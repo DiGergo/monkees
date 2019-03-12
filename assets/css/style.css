@@ -267,7 +267,7 @@ button[type=submit] {
     text-align: center;
     background-color: #292727;
     font-family: "reem kufi";
-    color: #f1f1f1;
+    color: #bb6838;
     padding-top: 20px;
 }
 
@@ -277,3 +277,16 @@ button[type=submit] {
 }
 
 /*------------------------------------------------Video page */
+
+.music-youtube{
+    color: #bb6838;
+}
+
+.video-page {
+    text-align: center;
+    background-color: #292727;
+    font-family: "reem kufi";
+    color: #bb6838;
+    padding-top: 20px;
+}
+
