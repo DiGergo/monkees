@@ -170,7 +170,9 @@ a:hover {
     padding-top: 20px;
 }
 
-
+.btn-lg {
+    color: #d4ffbf;
+}
 
 
 .timeline-item {
@@ -260,5 +262,18 @@ button[type=submit] {
 }
 
 /*------------------------------------------------Music page */
+
+.music-header {
+    text-align: center;
+    background-color: #292727;
+    font-family: "reem kufi";
+    color: #f1f1f1;
+    padding-top: 20px;
+}
+
+.music-style{
+    text-align: center;
+    padding-top: 2em;
+}
 
 /*------------------------------------------------Video page */
