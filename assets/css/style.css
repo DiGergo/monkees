@@ -17,6 +17,7 @@ header {
     margin-top: 20px;
     text-decoration: none;
     background-color: transparent;
+    margin-right: 5px;
 }
 
 .navbar-toggler {
