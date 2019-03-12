@@ -21,13 +21,13 @@ header {
 }
 
 .navbar-toggler {
-    background: #bb6838;
+    background: #e8e5e5;
     border: none;
 }
 
 
 .list-inline span {
-    color: #ef5d1a;
+    color: #e8e5e5;
     font-family: "Reem Kufi", sans-serif;
     font-size: 22px;
     margin-left: 10px;
@@ -75,12 +75,12 @@ header {
 }
 
 .news-section {
-    background-color: #4f362b;
+    background-color: #292727;
 
 }
 
 .news-heading {
-    color: #bb6838;
+    color: #e8e5e5;
     text-align: center;
     font-family: "Reem kufi";
     font-size: 36px;
@@ -88,11 +88,9 @@ header {
 }
 
 
-.news-text {
-    color: #bb6838;
+.news-teext {
+    color: #e8e5e5;
     text-align: center;
-    
-    
     padding-top: 2em;
     padding-bottom: 2em;
 }
@@ -103,7 +101,7 @@ header {
 .together {
     font-family: "Reem Kufi", sans-serif;
     font-size: 70px;
-    color: #ef5d1a;
+    color: #e8e5e5;
     position: relative;
     text-align: center;
     padding-top: 50px;
@@ -169,17 +167,22 @@ a:hover {
     font-family: "Reem kufi";
     font-size: 36px;
     padding-top: 20px;
+    color: #e8e5e5;
 }
 
 .btn-lg {
     color: #d4ffbf;
 }
 
+.btn--red {
+    background-color: #bb6838;
+    color: #e8e5e5;
+}
 
 .timeline-item {
     padding: 2em 2em 0em 2em;
     position: relative;
-    color: #bb6838;
+    color: #e8e5e5;
     text-align: center;
 }
 
@@ -193,7 +196,9 @@ a:hover {
 /* --------------------------------------Contact page */
 
 .bg-color-contact {
-    background-color: #efeded;
+    background-color: #292727;
+    padding-top: 5em;
+    height: 90vh;
 }
 
 .form-control {
@@ -213,13 +218,19 @@ a:hover {
     margin: 10px;
 }
 
+
 /* --------------Contact Form */
+
+.contact-main{
+    height: 90%;
+}
 
 .contact-heading {
     font-family: "reem kufi", sans-serif;
     font-weight: 300;
     margin-top: 25px;
     margin-bottom: 20px;
+    color: #e8e5e5;
 }
 
 .center-form {
@@ -262,14 +273,22 @@ button[type=submit] {
     width: 70%;
 }
 
+.information-about {
+    background-color: #292727;
+    padding-top: 10em;
+    padding-bottom: 10em;
+}
+
+
 /*------------------------------------------------Music page */
 
 .music-header {
     text-align: center;
     background-color: #292727;
     font-family: "reem kufi";
-    color: #bb6838;
-    padding-top: 20px;
+    color: #e8e5e5;
+    padding-top: 10em;
+    padding-bottom: 8em;
 }
 
 .music-style{
@@ -287,7 +306,8 @@ button[type=submit] {
     text-align: center;
     background-color: #292727;
     font-family: "reem kufi";
-    color: #bb6838;
-    padding-top: 20px;
+    color: #e8e5e5;
+    padding-top: 10em;
+    padding-bottom: 10em;
 }
 
