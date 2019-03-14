@@ -8,8 +8,8 @@ header {
 
 /* --------------------------------------Navbar */
 
-.navbar-collapse {
-    background: rgba(0, 0, 0, 0.7);
+.fixed-top{
+    background-color: rgba(102, 102, 102, 0.7);
 }
 
 .navbar {
@@ -29,8 +29,8 @@ header {
 .list-inline span {
     color: #e8e5e5;
     font-family: "Reem Kufi", sans-serif;
-    font-size: 22px;
-    margin-left: 10px;
+    font-size: 18px;
+    margin-left: 3em;
     font-weight: 100;
 }
 
@@ -50,7 +50,7 @@ header {
     -o-background-size: cover;
     background-size: cover;
 
-    display: flex;
+    
     align-items: center;
     text-align: center;
 
@@ -100,14 +100,20 @@ header {
 
 .together {
     font-family: "Reem Kufi", sans-serif;
-    font-size: 70px;
+    font-size: 40px;
     color: #e8e5e5;
     position: relative;
     text-align: center;
-    padding-top: 50px;
+    
     margin-left: 5%;
-
 }
+
+.the-monkees{
+    padding-bottom: 5px;
+    padding-top: 7em;
+    
+}
+
 
 /* --------------------------------------Footer */
 
@@ -180,7 +186,7 @@ a:hover {
 }
 
 .timeline-item {
-    padding: 2em 2em 0em 2em;
+    padding: 2em 2em 3em 2em;
     position: relative;
     color: #e8e5e5;
     text-align: center;
@@ -253,6 +259,7 @@ button[type=submit] {
     .navbar-expand-md .navbar-collapse {
         background-color: transparent;
     }
+    
 }
 
 
@@ -260,17 +267,20 @@ button[type=submit] {
 
 .band-members {
     color: #fafafa;
+    text-align: center;
+    
 }
 
 .img-circle {
-    margin-left: 20%;
+    
     margin-bottom: 30px;
     border-radius: 50%;
 }
 
 .band-description {
     color: #f1f1f1;
-    width: 70%;
+    text-align: center;
+    width: 80%;
 }
 
 .information-about {
@@ -279,6 +289,14 @@ button[type=submit] {
     padding-bottom: 10em;
 }
 
+.pictures {
+    padding-left: 40%;
+}
+
+.band-pictures{
+    display: block;
+    
+}
 
 /*------------------------------------------------Music page */
 
@@ -288,8 +306,10 @@ button[type=submit] {
     font-family: "reem kufi";
     color: #e8e5e5;
     padding-top: 10em;
-    padding-bottom: 8em;
+    padding-bottom: 10em;
+    
 }
+
 
 .music-style{
     text-align: center;
@@ -300,6 +320,7 @@ button[type=submit] {
 
 .watch-more{
     padding-top: 20px;    
+    padding-bottom: 25px;
 }
 
 .music-youtube{
@@ -311,7 +332,8 @@ button[type=submit] {
     background-color: #292727;
     font-family: "reem kufi";
     color: #e8e5e5;
-    padding-top: 10em;
-    padding-bottom: 10em;
+    padding-top: 15em;
+    padding-bottom: 20em;
+    
 }
 
