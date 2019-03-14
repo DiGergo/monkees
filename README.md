@@ -1,18 +1,35 @@
+The Monkees 
 
-     ,-----.,--.                  ,--. ,---.   ,--.,------.  ,------.
-    '  .--./|  | ,---. ,--.,--. ,-|  || o   \  |  ||  .-.  \ |  .---'
-    |  |    |  || .-. ||  ||  |' .-. |`..'  |  |  ||  |  \  :|  `--, 
-    '  '--'\|  |' '-' ''  ''  '\ `-' | .'  /   |  ||  '--'  /|  `---.
-     `-----'`--' `---'  `----'  `---'  `--'    `--'`-------' `------'
-    ----------------------------------------------------------------- 
+User Centric Frontend Development Milestone Project
 
+    This is an informative website about The Monkees where you can listen to a few songs, read some information about the band
+    and get in contact with them.
 
-Hi there! Welcome to Cloud9 IDE!
+User experience
 
-To get you started, create some files, play with the terminal,
-or visit http://docs.c9.io for our documentation.
-If you want, you can also go watch some training videos at
-http://www.youtube.com/user/c9ide.
+    My goal was to create an easily understandable website with colors which are easy to eye, solid and elegant. This site is mostly for 
+    older people so i tried to make it as simple as possible.
+    
+Technologies
+    
+    1. HTML
+    2. CSS
+    3. Bootstrap
+    
+Testing
 
-Happy coding!
-The Cloud9 IDE team
+    The site was tested on many devices from mobile phones, TV, Ipad to ensure it's working correctly on all devices.
+
+Deployment
+
+    The site is hosted by GitHub pages you can visit it here: https://digergo.github.io/monkees/ .
+    
+Content
+
+    About the band I took information from Wikipeadia.
+    Pictures, videos and music was given from Code Institute.
+    The rest of the content was written by me.
+    
+    Most of the code was reused from my previous websites tailored to fit this site's needs.
+    
+Thank you for visiting my page.

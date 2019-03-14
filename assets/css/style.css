@@ -243,7 +243,7 @@ button[type=submit] {
     margin-top: 15px;
     margin-bottom: 20px;
     color: #fafafa;
-    background-color: #e84610;
+    background-color: #bb6838;
 }
 
 
@@ -297,6 +297,10 @@ button[type=submit] {
 }
 
 /*------------------------------------------------Video page */
+
+.watch-more{
+    padding-top: 20px;    
+}
 
 .music-youtube{
     color: #bb6838;
