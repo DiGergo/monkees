@@ -10,7 +10,7 @@
     Tried to stick to the original idea, but made some minor changes during the 
     building of the page.
     
-    ![Image of wireframe] (https://github.com/DiGergo/monkees/blob/master/assets/wireframe/wireframe.png)
+    ![Image of wireframe](https://github.com/DiGergo/monkees/blob/master/assets/wireframe/wireframe.png)
 
 ## **User experience**
 
